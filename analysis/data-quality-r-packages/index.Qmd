@@ -1,0 +1,32 @@
+---
+author: "Martin Westgate"
+title: "R packages for data quality"
+subtitle: "What's already out there"
+date: 2026-04-17
+image: bdc_logo.png
+categories:
+  - packages
+---
+
+There are a bunch of R packages available for getting biodiversity data. It is worth saying, first of all, that the data aggregators themselves do a lot of work on data quality. GBIF and the living atlases have systems that tag (and sometimes, alter) records as having various problems. Therefore `galah` and `rgbif` are relevant resources here; but that's a topic for a different time. This page is focussed on R packages that have cleaning biodiversity data as their central purpose, or include a cleaning component as part of some wider workflow.
+
+## bdc
+
+Widely-used and well-respected
+
+[Docs](https://brunobrr.github.io/bdc/index.html) | [Code](https://github.com/brunobrr/bdc/) | [CRAN](https://cran.r-project.org/package=bdc)
+
+DOI (paper): [10.1111/2041-210X.13868](https://doi.org/10.1111/2041-210X.13868)
+
+
+## CoordinateCleaner
+
+Solid package offering tools not available elsewhere. ROpenSci.
+
+[Docs](https://ropensci.github.io/CoordinateCleaner/index.html) | [Code](https://github.com/ropensci/CoordinateCleaner/) | [CRAN](https://cloud.r-project.org/web/packages/CoordinateCleaner/index.html)
+
+DOI (paper): [10.1111/2041-210X.13152](https://doi.org/10.1111/2041-210X.13152)
+
+## Workflows
+
+- ebird / Cornell lab for Onithology have data cleaning workflows

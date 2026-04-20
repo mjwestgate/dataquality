@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Data Quality"
+  navbar:
+    right:
+      - text: Posts
+        href: posts.qmd
+      - text: Analysis
+        href: analysis.qmd
+
+format:
+  html:
+    theme: [litera, custom.scss]
+    css: styles.css
+    monofont: Fira Code
+    highlight-style: arrow
+    code-overflow: scroll
+    linkcolor: "#2e6626"
+    toc: true

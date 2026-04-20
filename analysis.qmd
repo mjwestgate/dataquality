@@ -1,0 +1,8 @@
+---
+title: "Analysis"
+listing: 
+  type: default
+  contents: analysis
+  sort: "date desc"
+  categories: true
+---
