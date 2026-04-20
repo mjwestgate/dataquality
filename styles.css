@@ -1,0 +1,32 @@
+.hex {
+    width: 200px
+}
+
+.smallhex {
+    width: 100px;
+    margin-right: 25px;
+}
+
+.interviewer {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+.figure {
+   margin-top: 40px;
+   margin-bottom: 40px;
+   text-align: center;
+   border-radius: 20px;
+}
+
+.img-rounded {
+  border-radius: 20px;
+  border: 3px solid #434343;
+}
+
+.thumbnail-image {
+  border-radius: 20px;
+  border: 3px solid #434343; 
+}
