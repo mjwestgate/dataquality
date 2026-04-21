@@ -54,7 +54,7 @@ Yes. Currently, the data quality system at ALA and GBIF involves flagging record
   - It **empowers** users: individuals can make their own choices about what 'quality' means to them.
   - It **scales** well: codebases are easy to build, test and maintain.
 
-This method also has drawbacks, however. It requires users to understand quite deeply what those checks are and how they work before making a decision. That requires a lot of documentation, which is cumbersome both for maintainers and users. The main problem, though, is that this approach is entirely deterministic; there is no estimate of likelihood or uncertainty.
+This method also has drawbacks, however. It requires users to understand quite deeply what those checks are and how they work before making a decision. That requires a lot of documentation, which is cumbersome both for maintainers and users. The main problem, though, is that this approach is entirely binary; there is no estimate of likelihood or uncertainty.
 
 
 ### Why have you chosen to explore statistical modelling?
