@@ -9,7 +9,11 @@ website:
         href: posts.qmd
       - text: Analysis
         href: analysis.qmd
-
+      - text: About
+        href: https://martinwestgate.com/
+      - icon: github
+        href: https://github.com/mjwestgate/dataquality
+    search: true
 format:
   html:
     theme: [litera, custom.scss]
