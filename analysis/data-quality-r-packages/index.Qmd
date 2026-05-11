@@ -10,23 +10,34 @@ categories:
 
 There are a bunch of R packages available for getting biodiversity data. It is worth saying, first of all, that the data aggregators themselves do a lot of work on data quality. GBIF and the living atlases have systems that tag (and sometimes, alter) records as having various problems. Therefore `galah` and `rgbif` are relevant resources here; but that's a topic for a different time. This page is focussed on R packages that have cleaning biodiversity data as their central purpose, or include a cleaning component as part of some wider workflow.
 
-## bdc
 
-Widely-used and well-respected
+```{r read-packages}
+#| echo: false
+#| warning: false
 
-[Docs](https://brunobrr.github.io/bdc/index.html) | [Code](https://github.com/brunobrr/bdc/) | [CRAN](https://cran.r-project.org/package=bdc)
+library(readr)
+library(dplyr)
+library(gt)
 
-DOI (paper): [10.1111/2041-210X.13868](https://doi.org/10.1111/2041-210X.13868)
+htmltools::strong("Table 1: R packages for data quality listed on CRAN")
 
+file <- here::here("analysis", "data-quality-r-packages", "data", "r_packages.csv")
+df <- readr::read_csv(file)
 
-## CoordinateCleaner
-
-Solid package offering tools not available elsewhere. ROpenSci.
-
-[Docs](https://ropensci.github.io/CoordinateCleaner/index.html) | [Code](https://github.com/ropensci/CoordinateCleaner/) | [CRAN](https://cloud.r-project.org/web/packages/CoordinateCleaner/index.html)
-
-DOI (paper): [10.1111/2041-210X.13152](https://doi.org/10.1111/2041-210X.13152)
-
-## Workflows
-
-- ebird / Cornell lab for Onithology have data cleaning workflows
+df |>
+  filter(category == "cleaning", on_cran == TRUE) |>
+  mutate(name_url = glue::glue("<a href={url_cran}>{name}</a>")) |>
+  mutate(doi = glue::glue("<a href = https://doi.org/{publication_doi}>{publication_doi}</a>")) |>
+  mutate(docs = glue::glue("<a href={url_docs}>{sub('^https://', '', url_docs)}</a>")) |>
+  select(name_url, date_updated, docs, doi) |>
+  gt() |>
+  fmt_url(columns = "name_url",
+          show_underline = "false") |>
+  fmt_url(columns = "docs") |>
+  fmt_url(columns = "doi") |>
+  cols_align(align = "left") |>
+  cols_label(name_url = "Package",
+      date_updated = "Updated",
+      docs = "Documentation",
+      doi = "DOI")
+```

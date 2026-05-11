@@ -14,3 +14,11 @@ For a more structured, considered, and generally coherent introduction to the to
   <img src="images/GBIF_occurrences.png" class="img-fluid figure-img img-rounded" style="width:100%">
   <figcaption>Heatmap of occurrences in GBIF, April 2026</figcaption>
 </figure>
+
+You can view the slides for my introductory talk on this topic here:
+
+<figure class="figure">
+  <a href="https://mjwestgate-2026-05-churchill-fellowship.share.connect.posit.cloud/" target="_blank">
+    <img src="images/presentation_title_page.png" class="img-fluid figure-img img-rounded" style="width:100%">
+  </a>
+</figure>

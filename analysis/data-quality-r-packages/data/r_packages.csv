@@ -1,0 +1,7 @@
+﻿id,name,category,on_cran,version,n_versions,data_initial,date_updated,url_cran,url_github,url_docs,publication_doi
+1,CoordinateCleaner,cleaning,TRUE,3.0.1,15,10/11/2017,24/10/2023,https://cran.r-project.org/package=CoordinateCleaner,https://github.com/ropensci/CoordinateCleaner/,https://ropensci.github.io/CoordinateCleaner/index.html,10.1111/2041-210X.13152
+2,bdc,cleaning,TRUE,1.1.6,7,1/3/2022,24/1/2026,https://cran.r-project.org/package=bdc,https://github.com/brunobrr/bdc/,https://brunobrr.github.io/bdc/index.html,10.1111/2041-210X.13868
+3,BeeBDC,cleaning,TRUE,1.3.3,13,15/9/2023,6/2/2026,https://cran.r-project.org/package=BeeBDC,https://github.com/jbdorey/BeeBDC,https://jbdorey.github.io/BeeBDC/,10.1038/s41597-023-02626-w
+4,gatoRs,cleaning,TRUE,1.0.2,3,17/2/2026,17/5/2024,https://cran.r-project.org/package=gatoRs,https://github.com/nataliepatten/gatoRs,https://nataliepatten.github.io/gatoRs/,
+5,RuHere,cleaning,TRUE,1.0.1,1,17/2/2026,17/2/2026,https://cran.r-project.org/package=RuHere,https://github.com/wevertonbio/RuHere/,https://wevertonbio.github.io/RuHere/,10.64898/2026.02.02.703373
+6,envClean,cleaning,FALSE,0.0.0.9000,0,8/8/2021,4/5/2026,,https://github.com/dew-landscapes/envClean/,https://dew-landscapes.github.io/envClean/,
