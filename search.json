@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Data Quality",
     "section": "",
-    "text": "This microsite is a place to collate information on data quality, in the sense that this applies to large biodiversity databases. Currently in it’s early stages, it was created to store learnings made during my Churchill Fellowship, which focusses on ways to address challenges in biodiversity informatics.\nFor a more structured, considered, and generally coherent introduction to the topic, see the Cleaning Biodiversity Data in R book, by Dr Dax Kellie and colleagues.\n\n\n\nHeatmap of occurrences in GBIF, April 2026"
+    "text": "This microsite is a place to collate information on data quality, in the sense that this applies to large biodiversity databases. Currently in it’s early stages, it was created to store learnings made during my Churchill Fellowship, which focusses on ways to address challenges in biodiversity informatics.\nFor a more structured, considered, and generally coherent introduction to the topic, see the Cleaning Biodiversity Data in R book, by Dr Dax Kellie and colleagues.\n\n\n\nHeatmap of occurrences in GBIF, April 2026\n\n\nYou can view the slides for my introductory talk on this topic here:"
   },
   {
     "objectID": "posts/2026-01-28_Churchill-Fellowship-FAQ/index.html",
@@ -32,28 +32,7 @@
     "href": "analysis/data-quality-r-packages/index.html",
     "title": "R packages for data quality",
     "section": "",
-    "text": "There are a bunch of R packages available for getting biodiversity data. It is worth saying, first of all, that the data aggregators themselves do a lot of work on data quality. GBIF and the living atlases have systems that tag (and sometimes, alter) records as having various problems. Therefore galah and rgbif are relevant resources here; but that’s a topic for a different time. This page is focussed on R packages that have cleaning biodiversity data as their central purpose, or include a cleaning component as part of some wider workflow."
-  },
-  {
-    "objectID": "analysis/data-quality-r-packages/index.html#bdc",
-    "href": "analysis/data-quality-r-packages/index.html#bdc",
-    "title": "R packages for data quality",
-    "section": "bdc",
-    "text": "bdc\nWidely-used and well-respected\nDocs | Code | CRAN\nDOI (paper): 10.1111/2041-210X.13868"
-  },
-  {
-    "objectID": "analysis/data-quality-r-packages/index.html#coordinatecleaner",
-    "href": "analysis/data-quality-r-packages/index.html#coordinatecleaner",
-    "title": "R packages for data quality",
-    "section": "CoordinateCleaner",
-    "text": "CoordinateCleaner\nSolid package offering tools not available elsewhere. ROpenSci.\nDocs | Code | CRAN\nDOI (paper): 10.1111/2041-210X.13152"
-  },
-  {
-    "objectID": "analysis/data-quality-r-packages/index.html#workflows",
-    "href": "analysis/data-quality-r-packages/index.html#workflows",
-    "title": "R packages for data quality",
-    "section": "Workflows",
-    "text": "Workflows\n\nebird / Cornell lab for Onithology have data cleaning workflows"
+    "text": "There are a bunch of R packages available for getting biodiversity data. It is worth saying, first of all, that the data aggregators themselves do a lot of work on data quality. GBIF and the living atlases have systems that tag (and sometimes, alter) records as having various problems. Therefore galah and rgbif are relevant resources here; but that’s a topic for a different time. This page is focussed on R packages that have cleaning biodiversity data as their central purpose, or include a cleaning component as part of some wider workflow.\n\n\nTable 1: R packages for data quality listed on CRAN\n\n\n\n\n\n\n\n\nPackage\nUpdated\nDocumentation\nDOI\n\n\n\n\nCoordinateCleaner\n24/10/2023\nropensci.github.io/CoordinateCleaner/index.html\n10.1111/2041-210X.13152\n\n\nbdc\n24/1/2026\nbrunobrr.github.io/bdc/index.html\n10.1111/2041-210X.13868\n\n\nBeeBDC\n6/2/2026\njbdorey.github.io/BeeBDC/\n10.1038/s41597-023-02626-w\n\n\ngatoRs\n17/5/2024\nnataliepatten.github.io/gatoRs/\nNA\n\n\nRuHere\n17/2/2026\nwevertonbio.github.io/RuHere/\n10.64898/2026.02.02.703373"
   },
   {
     "objectID": "analysis.html",
